@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+   <form method="post">
+    <input type="hidden" name="uuid" value="{{ uuid }}" />
+    <input type="hidden" name="story" value="space_explorer" />
+    <p>
+      Currently only <b>Space Explorer</b> is available, starting story mode...<br/>
+      <input type="submit" value="Proceed" autofocus />
+   </p>
+   </form>
+{% endblock %}
